@@ -7,7 +7,6 @@ public class Counter {
 	private ArrayList<Integer> numbers = new ArrayList<>();
 	
 	public Counter() {
-		super();
 	}
 
 

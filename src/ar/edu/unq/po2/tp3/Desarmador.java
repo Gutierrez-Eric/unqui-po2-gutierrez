@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Desarmador {
 	
 	public Desarmador() {
-		super();
 	}
 
 	public Integer numeroConMásDigitosPares(ArrayList<Integer> numeros) {
