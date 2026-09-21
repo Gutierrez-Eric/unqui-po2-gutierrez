@@ -1,0 +1,11 @@
+package ar.edu.unq.po2.tp6.email;
+
+public interface IAdministracionServidor {
+
+	public float tazaDeTransferencia();
+
+	public void resetear();
+	
+	public void realizarBackUp();
+
+}
