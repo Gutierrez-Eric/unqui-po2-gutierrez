@@ -8,16 +8,11 @@ import java.util.Map;
 import java.util.Set;
 
 public class ServidorPop implements IServidorCorreo {
-	private boolean conectado = false;
 	private Map<String, String> cuentasRegistradas = new HashMap<>();
 	private Map<String, List<Correo>> buzon = new HashMap<>();
 	private Set<String> usuariosConectados = new HashSet<>();
 	
-	
-	public boolean getConectado() {
-		return this.conectado;
-	}
-	
+
 	public ServidorPop(Map<String, String> cuentasRegistradas, Map<String, List<Correo>> buzon) {
 		this.cuentasRegistradas = cuentasRegistradas;
 		this.buzon = buzon;
