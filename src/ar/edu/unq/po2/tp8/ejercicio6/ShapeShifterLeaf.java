@@ -10,10 +10,6 @@ public class ShapeShifterLeaf implements IShapeShifter {
 		this.value = _value;
 	}
 	
-	public int getValue() {
-		return value;
-	}
-
 	@Override
 	public IShapeShifter compose(IShapeShifter other) {
 		ShapeShifterComposite nuevo = new ShapeShifterComposite();

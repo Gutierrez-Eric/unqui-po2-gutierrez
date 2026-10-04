@@ -45,10 +45,5 @@ public class ShapeShifterComposite implements IShapeShifter{
     return resultado;
 	}
 
-	@Override
-	public int getValue() {
-		return elements.stream()
-					   .mapToInt(e -> e.getValue())
-					   .sum();
-	}
+
 }
